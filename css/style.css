@@ -1,9 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"); */
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -39,8 +43,7 @@ h1 {
 }
 
 .title {
-    font-family: "Roboto";
-    font-style: normal;
+    /* font-family: 'Roboto Black', sans-serif; */
     font-weight: 900;
     font-size: 41px;
     line-height: 41px;
@@ -55,9 +58,6 @@ h2.title {
 
 .simple .title_big {
     margin-top: 20px;
-    /* margin-bottom: 20px; */
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 900;
     font-size: 80px;
     /* line-height: 80px; */
@@ -69,8 +69,6 @@ h2.title {
 .promo .promo_text {
     padding: 0 13px;
     margin-top: 23px;
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 300;
     font-size: 21px;
     line-height: 28px;
@@ -96,7 +94,6 @@ h2.title {
     margin: 72px auto;
     cursor: pointer;
     outline: none;
-    font-family: "Roboto";
     font-size: 21px;
     line-height: 24px;
     text-align: center;
@@ -110,8 +107,6 @@ h2.title {
 }
 
 .more .more_text {
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 100;
     font-size: 15px;
     /* identical to box height, or 160% */
@@ -136,8 +131,6 @@ h2.title {
 
 .waiting .waiting_header,
 .finish .finish_header {
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     text-align: center;
@@ -159,8 +152,6 @@ h2.title {
 }
 
 .waiting .waiting_subheader {
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 400;
     font-size: 23px;
     text-align: center;
@@ -184,8 +175,6 @@ h2.title {
 }
 
 .waiting .waiting_wrapper .waitig_item .waiting_descr {
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 21px;
@@ -199,8 +188,6 @@ h2.title {
 
 .optimization .optimization_header {
     margin-left: 391px;
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 900;
     font-size: 28px;
     line-height: 30px;
@@ -211,8 +198,6 @@ h2.title {
 .optimization .optimization_text {
     margin-left: 391px;
     margin-top: 25px;
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 300;
     font-size: 17px;
     line-height: 27px;
@@ -220,7 +205,6 @@ h2.title {
 }
 
 .optimization .optimization_text span {
-    font-family: "Roboto";
     font-style: bold;
     font-weight: 700;
 }
@@ -261,8 +245,6 @@ h2.title {
 
 .finish .finish_item .finish_descr {
     margin-top: 24px;
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
@@ -289,8 +271,6 @@ h2.title {
 
 .gift .container .gift_descr {
     margin-top: 15px;
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 43px;
@@ -316,8 +296,6 @@ h2.title {
 }
 .webinar .container .webinar_timetable {
     margin-top: 36px;
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
@@ -328,8 +306,6 @@ h2.title {
 
 .webinar .container .webinar_header {
     margin-top: 30px;
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 900;
     font-size: 36px;
     line-height: 36px;
@@ -340,8 +316,6 @@ h2.title {
 
 .webinar .container .webinar_descr {
     margin-top: 25px;
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 400;
     font-size: 23px;
     line-height: 20px;
@@ -364,7 +338,6 @@ a {
     margin-top: 57px;
     margin-bottom: 69px;
     color: #888888;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
